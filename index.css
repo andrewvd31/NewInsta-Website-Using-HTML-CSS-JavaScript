@@ -1,0 +1,99 @@
+/* Main Body */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header Section */
+
+.first-post, .interact,.top-side{
+    display: flex;
+}
+
+.common-size{
+    width: 405px;
+    height: 67px;
+}
+
+.top-side{ 
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    margin: 10px auto;
+    padding: 20px 0;
+}
+
+.picture{
+    border-radius: 30px;
+}
+
+/* Main Section */
+
+/* Top Flex */
+
+.first-post{
+    justify-content: start;
+    margin: 18px auto 0;
+}
+
+.image-size{
+    width: 42px;
+    height: 42px;
+    border-radius: 25px;
+}
+
+.second-flex h2,.second-flex p{
+    margin: 0;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+/* Instagram Post */
+
+.post-size, .gap{
+    margin: 0 auto;
+}
+
+.post-size{
+    width: 405px;
+    height: 405px;
+}
+
+/* Interaction Button */
+
+.interact{
+    margin-left: 550px;
+    margin-top: 8px;
+}
+
+.interact-btn{
+    height: 28px;
+    width: 28px;
+    padding: 10px;
+}
+
+.likes{
+    margin-left: 568px;
+    margin-top: 5px;
+    font-size: 16.5px;
+}
+
+.comments{
+    margin-left: 568px;
+    display: inline-block;
+    margin-top: -5px;
+    width: 395px;
+    line-height: 20px;
+}
+
+.comments-1{
+    font-weight: bolder;
+}
+
+/* Gap In-between */
+
+.gap{
+    background: #eaeaea;
+    height: 20px;
+}
